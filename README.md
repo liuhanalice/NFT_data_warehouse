@@ -1,3 +1,54 @@
+# Project: LION NFT Marketplace
+## Introduction
+This is an NFT Marketplace platform called **LION NFT Marketplace**, build with ERC-721 standard, Truffle, and Next.js. This Project was a final course project of Columbia University ELEN E6883: An Introduction to Blockchain Technology (spring 2023).
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Test With Truffle and Ganache
+To start, make sure to install truffle and Ganache.
+
+First, install dependencies:
+
+```bash
+npm install
+```
+Then, run:
+```bash
+truffle test
+```
+<img width="586" alt="image" src="https://user-images.githubusercontent.com/30332629/236952357-fc3b6ab7-7f41-45b9-883e-91a19b0bbc28.png">
+
+## Local Deployment
+> **Note**
+> We use [Pinata](https://www.pinata.cloud/) IPFS services, if you want to deploy our project, you need to create a Pinata account and may need to unlock "dedicated gateways" features (with an additional cost) to have the project work as expected. Alternatively, you can use other methods, but make sure to modify the code related to Pinata IPFS accordingly or the project cannot deploy successfully.
+
+> **Note**
+> If you want to use Pinata IPFS services as we did, you need to create an **.env:** file in the root folder. And paste your Pinata JWT to this file as well as your dedicated gateway access token. More details in [Pinata Docs](https://docs.pinata.cloud/).<img width="829" alt="envfile pic " src="https://user-images.githubusercontent.com/30332629/236955423-0e201a56-ed2c-484e-8373-138331e3cff8.png"> 
+> 
+> You also need to change the domain address [here](https://github.com/liuhanalice/nft-marketplace/blob/5984d799c1d95fe3da2d747aa44ef9ba8398f05b/pages/create-nft.js#L54) 
+
+To compile and deploy to local host:
+
+```bash
+npm run local
+```
+
+Then, open [http://localhost:3000](http://localhost:3000) with your browser to see the result. To test functionalities, be sure to have the [MetaMask](https://metamask.io/) digital wallet and enough funds. For local tests, you can use Ganache free accounts as we did.
+
+
+## Testnet Deployment
+We use [Remix IDE](https://remix.ethereum.org/) to deploy our project to Sepolia testnet. To do so, make sure to add your own Api key (INFURA_API_KEY) and MetaMask Secret Recovery Phrase (MNEMONIC) in the **.env** file.
+
+## Front-end Walkthrough (localhost)
+
+https://user-images.githubusercontent.com/30332629/236959911-31cb0ff2-7bd9-4351-ab2a-e74f9f0d951a.mov
+
+## References
+https://github.com/dabit3/polygon-ethereum-nextjs-marketplace/tree/main
+
+---
+
+
 # NFTVerse Data Warehouse
 
 ## Overview:

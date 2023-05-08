@@ -25,7 +25,7 @@ truffle test
 > **Note**
 > If you want to use Pinata IPFS services as we did, you need to create an **.env:** file in the root folder. And paste your Pinata JWT to this file as well as your dedicated gateway access token. More details in [Pinata Docs](https://docs.pinata.cloud/).<img width="829" alt="envfile pic " src="https://user-images.githubusercontent.com/30332629/236955423-0e201a56-ed2c-484e-8373-138331e3cff8.png"> 
 > 
-> You also need to change the domain address [here](https://github.com/liuhanalice/nft-marketplace/blob/5984d799c1d95fe3da2d747aa44ef9ba8398f05b/pages/create-nft.js#L54) 
+> You also need to change the domain address [here](https://github.com/liuhanalice/NFT_data_warehouse/blob/b27ca9936fc09c1f4f0d1d41df316a50aad11988/pages/create-nft.js#L54) 
 
 To compile and deploy to local host:
 

@@ -1,4 +1,10 @@
 # Project: LION NFT Marketplace
+## Team Members:
+- Han Liu, hl3608
+- Yuxuan Chen, yc4144
+- Danny Hou, dh3034
+- Jiafu Chen, jc5874
+- Yifan Wang, yw3914
 ## Introduction
 This is an NFT Marketplace platform called **LION NFT Marketplace**, build with ERC-721 standard, Truffle, and Next.js. This Project was a final course project of Columbia University ELEN E6883: An Introduction to Blockchain Technology (spring 2023).
 

@@ -49,6 +49,8 @@ We use [Remix IDE](https://remix.ethereum.org/) to deploy our project to Sepolia
 
 https://user-images.githubusercontent.com/30332629/236959911-31cb0ff2-7bd9-4351-ab2a-e74f9f0d951a.mov
 
+Alternative link :https://youtu.be/5qfJoQC9uBo
+
 ## References
 https://github.com/dabit3/polygon-ethereum-nextjs-marketplace/tree/main
 
